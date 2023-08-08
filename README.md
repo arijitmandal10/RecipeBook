@@ -5,6 +5,11 @@
 
 Cookbook is a web application built with React and React Router DOM that allows users to explore and search for recipes.
 
+## Deployment
+
+The app has been deployed using Netlify. You can access it [here](https://cookbook-arijit.netlify.app/).
+
+
 ## Table of Contents
 
 - [Features](#features)
@@ -63,11 +68,6 @@ package.json
 ## Screenshots
 ![image](https://github.com/arijitmandal10/RecipeBook/assets/114182784/aa517e11-ef96-4de4-b8ce-4c72d8fc9db7)
 
-
-
-## Deployment
-
-The app has been deployed using Netlify. You can access it [here](https://cookbook-arijit.netlify.app/).
 
 ## Getting Started
 
