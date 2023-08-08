@@ -138,3 +138,6 @@ nav > h2 > a {
 .bottom details > summary {
 	font-size: x-large;
 }
+.bottom details > p {
+	font-family: serif;
+}
