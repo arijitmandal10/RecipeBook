@@ -27,6 +27,7 @@ Cookbook is a web application built with React and React Router DOM that allows 
 
 ```
 public/
+ |-- index.html
 src/
 |-- components/
 |   |-- Body.jsx
