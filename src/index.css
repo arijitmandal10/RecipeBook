@@ -134,6 +134,7 @@ nav > h2 > a {
 }
 .bottom summary:hover {
 	color: red;
+	cursor: pointer;
 }
 .bottom details > summary {
 	font-size: x-large;

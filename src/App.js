@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import { Outlet, createBrowserRouter, RouterProvider } from 'react-router-dom';
 import SearchPage from './pages/SearchPage';
 import Details from './pages/Details';
-
+import Error from './components/Error';
 const AppLayout = () => {
 	return (
 		<>
@@ -18,7 +18,7 @@ const App = () => {
 		{
 			path: '/',
 			element: <AppLayout />,
-			errorElement: <h1>page not found!!☹️</h1>,
+			errorElement: <Error />,
 			children: [
 				{
 					path: '/',
