@@ -142,3 +142,40 @@ nav > h2 > a {
 .bottom details > p {
 	font-family: serif;
 }
+
+@media only screen and (max-width: 550px) {
+	.RecipeDetails {
+		flex-direction: column;
+		gap: 14px;
+	}
+	img {
+		max-width: 100%;
+		max-height: 23vh;
+	}
+
+	.bottom {
+		width: 100%;
+		justify-content: space-around;
+	}
+	.bottom details > summary {
+		font-size: medium;
+	}
+	.details {
+		width: 95%;
+		margin: 60px auto;
+	}
+	.Recipe {
+		width: 7em;
+		min-height: 9em;
+		gap: 7px;
+	}
+	.container > form > input {
+		width: 65%;
+	}
+	.Recipe > details > summary {
+		font-size: smaller;
+	}
+	.Recipe > p {
+		font-size: x-small;
+	}
+}
