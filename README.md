@@ -1,70 +1,80 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Cookbook Web App
 
-## Available Scripts
+![Screenshot (36)](https://github.com/arijitmandal10/RecipeBook/assets/114182784/eef7d72f-4a6e-4204-bf74-73769634ad9f)
 
-In the project directory, you can run:
+Cookbook is a web application built with React and React Router DOM that allows users to explore and search for recipes.
 
-### `npm start`
+## Deployment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The app has been deployed using Netlify. You can access it [here](https://cookbook-arijit.netlify.app/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Features](#features)
+- [Folder Structure](#folder-structure)
+- [Tech Stack](#tech-stack)
+- [Libraries and Hooks](#libraries-and-hooks)
+- [Screenshots](#screenshots)
+- [Deployment](#deployment)
+- [Getting Started](#getting-started)
+- [License](#license)
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Browse a collection of delicious recipes.
+- Search for recipes using keywords.
+- View detailed information about a specific recipe.
+- Responsive design for various screen sizes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Folder Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+public/
+ |-- index.html
+src/
+|-- components/
+|   |-- Body.jsx
+|   |-- Error.jsx
+|   |-- Navbar.jsx
+|   |-- Recipe.jsx
+|   |-- Search.jsx
+|-- pages/
+|   |-- Details.jsx
+|   |-- SearchPage.jsx
+|-- utils/
+|   |-- useRecipes.js
+|-- App.js
+|-- index.css
+|-- index.js
+.gitignore
+README.md
+package-lock.json
+package.json
+```
 
-### `npm run eject`
+## Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React
+- React Router Dom
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Libraries and Hooks
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start): For handling client-side routing.
+- [useState](https://reactjs.org/docs/hooks-state.html) and [useEffect](https://reactjs.org/docs/hooks-effect.html): React hooks for managing state and side effects.
+- [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API): For making API requests to retrieve recipe data.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
+![image](https://github.com/arijitmandal10/RecipeBook/assets/114182784/aa517e11-ef96-4de4-b8ce-4c72d8fc9db7)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone this repository.
+2. Install the required dependencies using `npm install`.
+3. Run the development server using `npm start`.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
